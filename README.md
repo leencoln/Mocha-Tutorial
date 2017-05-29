@@ -1,6 +1,6 @@
-#Mocha 시작하기
+# Mocha 시작하기
 
-##Mocha 설치
+## Mocha 설치
 **Mocha**를 설치하기 위해서는 먼저 Node.js와 npm이 설치되어 있어야 합니다. 
 본문에는 Node.js와 npm 설치 방법을 제외하고 시작하도록 하겠습니다.
 Node.js와 npm을 설치하였다면 적당한 프로젝트 폴더를 생성합니다. 여기서는 `Mocha_test`라고 하겠습니다.
@@ -32,7 +32,7 @@ $ mocha --version 또는 mocha -V
 
 
 - - -
-
+# Mocha Tutorial
 
 * [Step 01-Hello World!](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)
 
