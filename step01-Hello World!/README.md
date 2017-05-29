@@ -24,8 +24,8 @@ mocha는 `BDD` 스타일을 기본으로하고 있지만 `TDD` 스타일도 지�
 해당 강좌에서는 위와 같이 `BDD` 스타일로 작성하도록 하겠습니다.
 
 ### Assertion
-`mocha`의 장점 중인 하나가 Assertion 라이브러리와 독립적으로 사용이 가능하다는 것입니다. 즉, _mocha는 어떠한 Assertion 라이브러리라도 가져다가 같이 사용할 수 있습니다._
-대게 `mocha`는 `chai`라는 Assertion 라리브러리와 같이 사용합니다. 위 코드에서는 Node.js에서 제공하는 기본 Assetion 라이브러리를 사용하였습니다.
+`mocha`의 장점 중인 하나가 `Assertion` 라이브러리와 독립적으로 사용이 가능하다는 것입니다. 즉, **_mocha는 어떠한 Assertion 라이브러리라도 가져다가 같이 사용할 수 있습니다._**
+대게 `mocha`는 `chai`라는 `Assertion` 라리브러리와 같이 사용합니다. 위 코드에서는 Node.js에서 제공하는 기본 `Assetion` 라이브러리를 사용하였습니다.
 
 
 - - - 
@@ -35,7 +35,7 @@ mocha는 `BDD` 스타일을 기본으로하고 있지만 `TDD` 스타일도 지�
 ```
 $ mocha
 ```
-기본적으로 mocha 실행 시 test.js 파일을 실행합니다. 하지만 특정 파일도 실행이 가능합니다.
+기본적으로 mocha 실행 시 `test.js` 파일을 실행합니다. 하지만 특정 파일도 실행이 가능합니다.
 ```
 $ mocha test.js
 ```
