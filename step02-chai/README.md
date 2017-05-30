@@ -99,29 +99,3 @@ describe('#Hello World!', function () {
 
 `2 passing`에 `1 failing` 입니다.
 
-
-## NPM으로 실행하기.
-지금까지 우리는 `test.js`를 `$ mocha test.js` 또는 `$ mocha`를 통해 실행을 했습니다. 
-하지만 `mocha` 역시 `Node.js`의 하나의 모듈이기 때문에 `npm`으로 실행을 할 수 있습니다. 
-`npm`을 조금 다뤄보았다면 모두 아는 내용이지만 그래도 `-내 맴대로-` 포스트를 하겠습니다.
-
-
-처음 [Mocha 시작하기](https://github.com/kdydesign/Mocha-Tutorial)에서 우리는 `mocha`를 설치하기 전에 `$ npm init`을 통해 `package.json`을 생성하였습니다.
-생성된 `package.json` 파일을 보면 `scripts`라는 항목이 있는데 우리는 이것을 npm으로 실행하면 끝입니다. 
-```json
-{
-  //...
-  
-  "scripts": {
-    "test": "mocha test"
-  }
-  
-  //..
-}
-```
-
-```
-$ npm test
-```
-
-결과는 같으며 실행 방식의 차이입니다.
