@@ -52,6 +52,7 @@ $ mocha test.js
 
 ![실행 결과01](./result_thumbnail_01.png)
 
+### describe()
 
 하나의 `describe()` 안에는 여러 개의 `describe()`를 가질 수가 있고, `it()` 역시 여러 개를 가질 수도 있습니다.
 <br />
