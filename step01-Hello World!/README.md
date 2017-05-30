@@ -51,7 +51,6 @@ $ mocha test.js
 
 ![실행 결과01](./result_thumbnail_01.png)
 
-<br/>
 
 ## describe()
 
