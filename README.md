@@ -34,5 +34,6 @@ $ mocha --version 또는 mocha -V
 - - -
 # Mocha Tutorial
 
-* [Step 01-Hello World!](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)
+* [Step 01: Hello World! - Mocha 실행해보자](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)
+* [Step 02: Chai 사용하기. - Assertion을 알아보자](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
 
