@@ -7,12 +7,8 @@
 
 ## Chai.
 
-<img style="float: center;" src="./chai_logo.png">
-<div style="text-align:center" markdown="1">
+<img align="center;" src="./chai_logo.png">
 
-![Alt Text](/path/to/image "Caption")
-
-</div>
 <br/>
 [mochjs.org](https://mochajs.org/)에서 리스팅 된 `Assertion`에는 `Should.js`, `expect.js`, `chai`, `better-assert`, `unexpected` 가 있습니다.
 이 중 어떤 `Assertion`를 사용하는지는 사용자의 판단입니다. 궁극적으로는 같은 목적을 가지기 때문에 어떤 스타일을 선호하냐는 것에 따라 나뉠 수 있습니다.
@@ -117,6 +113,7 @@ expect(str).to.have.lengthOf(7, 'Why fail?');
 ```
 
 `expect`는 임의의 실패한 `assetion` 앞에 메시지를 포함할 수 있습니다. 예제를 실행해 보면 아래와 같이 실패한 결과에 메시지가 출력되는 것을 볼 수 있습니다.
+
 </br>
 ![result02](./result_thumbnail_02.png)
 
