@@ -7,9 +7,8 @@
 
 ## Chai.
 
-<img align="center;" src="./chai_logo.png">
+![result01](./chai_logo.png.png)
 
-<br/>
 [mochjs.org](https://mochajs.org/)에서 리스팅 된 `Assertion`에는 `Should.js`, `expect.js`, `chai`, `better-assert`, `unexpected` 가 있습니다.
 이 중 어떤 `Assertion`를 사용하는지는 사용자의 판단입니다. 궁극적으로는 같은 목적을 가지기 때문에 어떤 스타일을 선호하냐는 것에 따라 나뉠 수 있습니다.
 <br/>
@@ -36,7 +35,7 @@ $ npm i chai --save-dev
 
 ## Chai 사용하기.
 
-우리는 이제 `chai`까지 설치를 하였습니다. 이렇게 설치한 `chai`를 불러와서 사용하기만 하면 됩니다. [Step 01](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)에서 이미 `test.js`파일을 생성했으니 새롭게 `test-chai.js`라는 파일을 생성합니다.
+우리는 이제 `chai`까지 설치를 하였습니다. 이렇게 설치한 `chai`를 불러와서 사용하기만 하면 됩니다. [Step 01: Hello World! - Mocha 실행해보자](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)에서 이미 `test.js`파일을 생성했으니 새롭게 `test-chai.js`라는 파일을 생성합니다.
 그리고 아래처럼 코드를 입력해주세요.
 
 ```javascript
