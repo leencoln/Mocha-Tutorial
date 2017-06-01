@@ -1,7 +1,7 @@
 # Step 02. Chai 사용하기.
 
 [Step 01: Hello World! - Mocha 실행해보자](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)에서는 기본적인 `mocha` 사용법에 대해 알아보았습니다.
-이번 Step 02에서는 [Step 01](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)에서 언급한 `Assertion` 라이브러리에 대해
+이번 Step 02에서는 [Step 01: Hello World! - Mocha 실행해보자](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)에서 언급한 `Assertion` 라이브러리에 대해
 어떻게 사용하는지와 어떤 것인지를 알아보도록 하겠습니다.
 
 
@@ -113,9 +113,10 @@ it('expect - Object', function () {
 expect(str).to.have.lengthOf(7, 'Why fail?');
 ```
 
-`expect`는 임의의 실패한 `assetion` 앞에 메시지를 포함할 수 있습니다. 예제를 실행해 보면 아래와 같이 실패한 결과에 메시지가 출력되는 것을 볼 수 있습니다.
+`expect`는 임의의 실패한 `assertion` 앞에 메시지를 포함할 수 있습니다. 예제를 실행해 보면 아래와 같이 실패한 결과에 메시지가 출력되는 것을 볼 수 있습니다.
 
 </br>
+
 ![result02](./result_thumbnail_02.png)
 
 
