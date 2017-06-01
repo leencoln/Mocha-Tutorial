@@ -7,7 +7,9 @@
 
 ## Chai.
 
-![result01](./chai_logo.png.png)
+<p align="center">
+  <img src="./chai_logo.png">
+</p>
 
 [mochjs.org](https://mochajs.org/)에서 리스팅 된 `Assertion`에는 `Should.js`, `expect.js`, `chai`, `better-assert`, `unexpected` 가 있습니다.
 이 중 어떤 `Assertion`를 사용하는지는 사용자의 판단입니다. 궁극적으로는 같은 목적을 가지기 때문에 어떤 스타일을 선호하냐는 것에 따라 나뉠 수 있습니다.
