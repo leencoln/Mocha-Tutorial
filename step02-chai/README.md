@@ -115,8 +115,6 @@ expect(str).to.have.lengthOf(7, 'Why fail?');
 
 `expect`는 임의의 실패한 `assertion` 앞에 메시지를 포함할 수 있습니다. 예제를 실행해 보면 아래와 같이 실패한 결과에 메시지가 출력되는 것을 볼 수 있습니다.
 
-</br>
-
 ![result02](./result_thumbnail_02.png)
 
 
