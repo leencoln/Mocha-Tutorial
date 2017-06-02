@@ -227,10 +227,9 @@ describe('#Assert Test', function () {
 `Mocha`를 사용하다 보면 처음에 이 `Assertion`에 대해 다소 낯선 기분이 들 수도 있습니다. 하지만 걱정 마세요. [API](http://chaijs.com/api/bdd/)에서 모든 것을 확인하고 테스트해 볼 수 있습니다.
 <br/>
 이제 `chai` 사용법에 대해 알았습니다. 기본적인 `mocha`를 모두 터득한 것이죠. 지금까지 배운 것만으로도 쉽지는 않겠지만 그럴싸한 단위 테스트를 진행할 수 있습니다.
-
 <br/>
 다음 Tutorial에서는 `Hooks`와 `mocha`에서 `BDD`, `TDD`의 다른점을 알아보겠습니다.
 
 
 <br/>
-#### [Step 03: Hooks](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
+[Step 03: Hooks](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)

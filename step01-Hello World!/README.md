@@ -20,14 +20,14 @@ describe('#Hello World!', function () {
 
 위 코드는 `mocha`의 가장 기본 코드입니다.
 mocha는 `describe()`와 `it()`으로 테스트 스위트와 유닛 테스트를 정의하고 실행합니다.
-mocha는 `BDD` 스타일을 기본으로하고 있지만 `TDD` 스타일도 지원을 하고 있습니다.
+mocha는 `BDD` 스타일을 기본으로 하고 있지만 `TDD` 스타일도 지원하고 있습니다.
 해당 강좌에서는 위와 같이 `BDD` 스타일로 작성하도록 하겠습니다.
 
 
 ## Assertion
-위 코드에서는 Node.js에 내장 된 `Assetion` 라이브러리를 사용하였지만
-`mocha`의 장점 중인 하나가 `Assertion` 라이브러리와 독립적으로 사용이 가능하다는 것입니다. 
-즉, **_mocha는 외부 Assertion 라이브러리라도 가져다가 같이 사용할 수 있습니다._**
+위 코드에서는 Node.js에 내장된 `Assetion` 라이브러리를 사용하였지만
+`mocha`의 장점 중인 하나가 `Assertion` 라이브러리와 독립적으로 사용할 수 있다는 것입니다. 
+즉, **_mocha는 외부 Assertion 라이브러리와 같이 사용할 수 있습니다._**
 아래에는 [mochajs.org](https://mochajs.org)에 리스팅 되어 있는 `Assertion` 라이브러리입니다.
 
 > * **should.js** - `BDD` 스타일의 Assertions
@@ -42,7 +42,7 @@ mocha는 `BDD` 스타일을 기본으로하고 있지만 `TDD` 스타일도 지�
 ```
 $ mocha
 ```
-기본적으로 mocha 실행 시 `test.js` 파일을 실행합니다. 하지만 특정 파일도 실행이 가능합니다.
+기본적으로 mocha 실행 시 `test.js` 파일을 실행합니다. 하지만 특정 파일도 실행할 수 있습니다.
 ```
 $ mocha test.js
 ```
@@ -93,7 +93,7 @@ describe('#Hello World!', function () {
 `#Hello World!`의 테스트 스위트는 `#String Test`라는 테스트 스위트를 가지고 있습니다. 
 그리고 `#String Test`는 두 개의 `it()`을 가질 수 있는 것을 볼 수 있습니다. 
 <br/>
-위 예제에서는 오류가 발생되도록 되어있습니다. 결과를 보도록 할까요?
+위 예제에서는 오류가 발생하도록 되어있습니다. 결과를 보도록 할까요?
 
 ![실행 결과02](./result_thumbnail_02.png)
 
@@ -101,7 +101,7 @@ describe('#Hello World!', function () {
 
 
 ## NPM으로 실행하기.
-지금까지 우리는 `test.js`를 `$ mocha test.js` 또는 `$ mocha`를 통해 실행을 했습니다. 
+지금까지 우리는 `test.js`를 `$ mocha test.js` 또는 `$ mocha`를 통해 실행했습니다. 
 하지만 `mocha` 역시 `Node.js`의 하나의 모듈이기 때문에 `npm`으로 실행을 할 수 있습니다. 
 `npm`을 조금 다뤄보았다면 모두 아는 내용이지만 그래도 `-내 맴대로-` 포스트를 하겠습니다.
 
@@ -128,4 +128,4 @@ $ npm test
 
 
 <br/>
-#### [Step 02: Assertion-chai](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
+ [Step 02: Assertion-chai](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
