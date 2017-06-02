@@ -128,4 +128,5 @@ $ npm test
 
 
 <br/>
- [Step 02: Assertion-chai](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
+
+[Step 02: Assertion-chai](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
