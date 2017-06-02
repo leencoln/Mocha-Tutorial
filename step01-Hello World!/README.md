@@ -125,3 +125,7 @@ $ npm test
 ```
 
 결과는 같으며 실행 방식의 차이입니다.
+
+
+<br/>
+#### [Step 02: Assertion-chai](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
