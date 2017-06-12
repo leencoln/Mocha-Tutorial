@@ -2,6 +2,8 @@
 
 이번 Tutorial에서는 `mocha`의 `Hooks`를 알아보겠습니다. **`mocha`에서는 테스트들의 전제 조건과 후 조건을 미리 설정할 수 있는 `Hooks`를 지원**합니다.
 `mocha`에서는 기본적으로 `BDD` 스타일을 지원하지만 `TDD` 스타일도 역시 지원하기 때문에 이 두 스타일에 대한 `Hooks`도 정의할 수 있습니다.
+
+<br/>
 먼저 `Hooks`를 살펴보겠습니다.
 
 ## 기본 Hooks
@@ -45,7 +47,6 @@ describe('#Hooks', function(){
 모든 `before()` Hooks가 한 번 실행한 후 모든 `beforeEach()` Hooks와 테스트 케이스(`it`)가 실행됩니다. 이후 모든 `afterEach()` Hooks를 실행하고 마지막으로 `after()` Hooks를 한 번 실행하게 됩니다.
 
 <br/>
-
 아래 코드를 보겠습니다.
 
 ```javascript
@@ -115,6 +116,7 @@ describe('#Describing Hooks', function () {
 
 살펴 볼까요? 우리가 이 Tutorial에서 배운 것은 `mocha`는 기본적으로 `BDD` 스타일을 우선순위로 지원한다고 하였습니다. 그리고 4가지의 `Hooks`인 `before()`, `after()`, `beforeEach()`, `afterEach()` 입니다.
 `TDD`는 4가지의 `Hooks`의 명칭이 다릅니다. `suiteSetup()`, `suiteTeardown()`, `setup()`, `teardown()` 이렇게 되죠. 또한 `BDD`에서의 `describe()`는 `suite()`로, `it()`은 `test()`로 표현합니다.
+
 <br/>
 `TDD` 스타일을 직접 코드로 살펴보겠습니다.
 
@@ -153,17 +155,16 @@ $ mocha test --ui tdd 또는 -u tdd
 
 <br/>
 
+- - - 
+
 `Hooks`는 용이하게 사용할 수 있습니다. 예를 들어 테스트 케이스 필요한 `Book`이라는 객체를 생성한다고 하였을 때 우리는 `var book = new Book()`을 테스트 케이스마다 만들 것입니다.
 하지만 우리는 지금까지 배운 `Hooks`를 통해 한 번에 객체를 만들고 `destroy`까지 완벽하게 끝낼 수 있습니다.
-
 그렇지 않다고 느낀다면 아직 이 `Hooks`가 낯설어서 일 것입니다.
 
 <br/>
-
 이제 `Hooks`를 배웠으니 다음 Tutorial에서는 `비동기 처리`에 대한 방법을 배워보고 `Hooks`에도 `비동기 처리`를 적용하는 방법을 배워보겠습니다.
 
 <br/>
-
 [Step 04: 비동기 처리](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)
 
 
