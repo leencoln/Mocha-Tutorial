@@ -9,8 +9,8 @@
     "mocha": "^3.3.0"
   },
   "scripts": {
-    "test": "mocha test"
-  },
+    "test": "mocha step03-Hooks/test"
+},
   "author": "",
   "license": "ISC"
 }
