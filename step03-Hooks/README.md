@@ -1,7 +1,8 @@
-# Step 02. Hooks
+# Step 03. Hooks
 
-이번 Tutorial에서는 `mocha`의 `Hooks`를 알아보겠습니다. *`mocha`에서는 테스트들의 전제 조건과 후 조건을 미리 설정할 수 있는 `Hooks`를 지원*합니다.
+이번 Tutorial에서는 `mocha`의 `Hooks`를 알아보겠습니다. ***`mocha`에서는 테스트들의 전제 조건과 후 조건을 미리 설정할 수 있는 `Hooks`를 지원***합니다.
 `mocha`에서는 기본적으로 `BDD` 스타일을 지원하지만 `TDD` 스타일도 역시 지원하기 때문에 이 두 스타일에 대한 `Hooks`도 정의할 수 있습니다.
+<br/>
 먼저 `Hooks`를 살펴보겠습니다.
 
 ## 기본 Hooks
