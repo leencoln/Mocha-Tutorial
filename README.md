@@ -38,7 +38,7 @@ $ mocha --version 또는 mocha -V
 * [Step 02: Assertion-chai](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
 * [Step 03: Hooks](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step03-Hooks)
 * [Step 04: 비동기 처리](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step04-Asynchronous)
-* [Step 05: 외부 모듈 테스트](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step04-Asynchronous)
+* [Step 05: 외부 모듈 테스트](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step05-Import%20Modules)
 * [Step 06: 브라우저에서의 Mocha 지원](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
 * [Step 07: Options](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
 * [Step 08: IDE Edit Plug-in (IntelliJ)](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)

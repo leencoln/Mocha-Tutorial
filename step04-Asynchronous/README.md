@@ -91,5 +91,5 @@ describe('#indexOf()', function () {
 
 <br/>
 
-[Step 05: 외부 모듈 테스트](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step04-Asynchronous)
+[Step 05: 외부 모듈 테스트](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step05-Import%20Modules)
 
