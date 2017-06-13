@@ -164,7 +164,7 @@ $ mocha test --ui tdd 또는 -u tdd
 
 <br/>
 
-[Step 04: 비동기 처리](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)
+[Step 04: 비동기 처리](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step04-Asynchronous)
 
 
 
