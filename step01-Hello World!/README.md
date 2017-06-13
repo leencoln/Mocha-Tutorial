@@ -116,7 +116,7 @@ describe('#Hello World!', function () {
     "test": "mocha test"
   }
   
-  //..
+  //...
 }
 ```
 
