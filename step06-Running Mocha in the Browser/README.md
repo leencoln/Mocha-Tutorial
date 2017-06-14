@@ -1,8 +1,8 @@
 # Mocha 브라우저 구동
 
 [Step 01: Hello World!](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step01-Hello%20World!)부터 시작으로 지금까지 우리는 `$ mocha` 명령을 통해 터미널에서 실행하였습니다.
-mocha는 터미널뿐만 아니라 `gulp`의 task를 통해 실행도 가능하지만, 이 밖에도 브라우저에서 구동되도록 지원하고 있습니다.
-우리는 이번 Tutorial에서는 mocha를 `브라우저에서 구동`하는 방법을 알아보겠습니다.
+mocha는 터미널 뿐만 아니라 `gulp`의 task를 통해 실행도 가능하지만, 이 밖에도 브라우저에서 구동되도록 지원하고 있습니다.
+우리는 이번 Tutorial에서는 `mocha를 브라우저에서 구동`하는 방법을 알아보겠습니다.
 
 
 ## index.html
@@ -40,17 +40,15 @@ mocha는 터미널뿐만 아니라 `gulp`의 task를 통해 실행도 가능하�
 </html>
 ```
 
-먼저 mocha에 필요한 `css`와 `mocha.ja` 그리고 `chai.js`파일을 불러왔습니다. 해당 Tutorial에서는 `node_modules`에 포함된 파일을 불러왔지만 `CDN`으로 불러올 수 있습니다.
+먼저 mocha에 필요한 `mocha.css`와 `mocha.js` 그리고 `chai.js`파일을 불러왔습니다. 해당 Tutorial에서는 `node_modules`에 포함된 파일을 불러왔지만 `CDN`으로 불러올 수 있습니다.
 
 `CDN`은 아래를 참고하세요.
 
-> https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css
-> https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js
-> https://cdnjs.cloudflare.com/ajax/libs/chai/4.0.2/chai.min.js
+> * https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css
+> * https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js
+> * https://cdnjs.cloudflare.com/ajax/libs/chai/4.0.2/chai.min.js
 
-이렇게 필요한 소스를 불러온 후 mocha 설정에 관련된 `setup`을 진행합니다. 그런 다음 테스트 스위트와 테스트 케이스가 포함된 `.js`파일을 로드합니다.
-
-마지막으로 `onload` 인터페이스와 함께 `run()`을 통해 mocha를 실핼하게 되어있습니다. 우리는 아직 `test.js`를 정의하지 않았기 때문에 실행을 한다고 하더라고 결과가 나오지는 않습니다.
+이렇게 필요한 소스를 불러온 후 mocha 설정에 관련된 `setup`을 진행합니다. 그런 다음 테스트 스위트와 테스트 케이스가 포함된 `.js`파일을 로드합니다. 마지막으로 `onload` 인터페이스와 함께 `run()`을 통해 mocha를 실핼하게 되어있습니다. 우리는 아직 `test.js`를 정의하지 않았기 때문에 실행을 한다고 하더라고 결과가 나오지는 않습니다.
 
 
 ## test.js
@@ -81,16 +79,15 @@ describe('#Array', function () {
 ```
 
 터미널에서 실행할 때와 다른 점은 `chai.expect` 부분입니다. `브라우저 구동`할 때는 이미 `index.html`에 우리가 `chai`를 불러왔기 때문에 별도로 `require`하지 않아도 됩니다.
-
-테스트의 내용을 잠깐 살펴보면 Array의 타입과 데이터가 존재하는지에 대한 몇 가지 테스트입니다.
-
-이제 브라우저를 실행하면 결과가 출력됩니다.
+<br/>
+테스트의 내용을 잠깐 살펴보면 Array의 타입과 데이터가 존재하는지에 대한 몇 가지 테스트입니다. 이제 브라우저를 실행하면 결과가 출력됩니다.
 
 ![result01](./result_thumbnail_01.png)
 
 터미널보다 훨씬 더 보기 편리하군요.
-
+<br/>
 해당 테스트 케이스를 클릭하게 되면 테스트를 진행한 코드를 볼 수가 있습니다. 그리고 상단에는 `passes`, `failures`, `duration`을 확인할 수 있습니다.
+<br/>
 테스트가 너무 짧은가요? 테스트 케이스를 더 추가하여 다시 확인해 보겠습니다.
 
 아래 코드를 `test.js`에 이어서 작성합니다.
@@ -156,7 +153,7 @@ describe('#ModuleSum', function () {
 - - -
 
 mocha의 `브라우저 구동`은 매우 다루기 쉽고 작성하기도 쉽습니다. `index.html`에 설정만 적당하게 잘 만들어 놓는다면 이보다 편한 것도 없죠.
-
+<br/>
 그럼 mocha의 설정은 어떻게 하고 어떤 것들이 있는지 확인해보겠습니다.
 
 
