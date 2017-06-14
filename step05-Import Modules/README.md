@@ -59,5 +59,5 @@ describe('#ModuleSum', function () {
 
 <br/>
 
-[Step 06: 브라우저에서의 Mocha 지원](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step02-chai)
+[Step 06: 브라우저에서의 Mocha 지원](https://github.com/kdydesign/Mocha-Tutorial/tree/master/step06-Running%20Mocha%20in%20the%20Browser)
  
