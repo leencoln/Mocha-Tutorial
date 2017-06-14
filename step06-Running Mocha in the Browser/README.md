@@ -84,9 +84,7 @@ describe('#Array', function () {
 
 ![result01](./result_thumbnail_01.png)
 
-터미널보다 훨씬 더 보기 편리하군요.
-<br/>
-해당 테스트 케이스를 클릭하게 되면 테스트를 진행한 코드를 볼 수가 있습니다. 그리고 상단에는 `passes`, `failures`, `duration`을 확인할 수 있습니다.
+터미널보다 훨씬 더 보기 편리하군요. 해당 테스트 케이스를 클릭하게 되면 테스트를 진행한 코드를 볼 수가 있습니다. 그리고 상단에는 `passes`, `failures`, `duration`을 확인할 수 있습니다.
 <br/>
 테스트가 너무 짧은가요? 테스트 케이스를 더 추가하여 다시 확인해 보겠습니다.
 
@@ -140,7 +138,7 @@ function sum(num1, num2) {
 <!-- //... -->
 ```
 
-이제 불러온 `ModuleSum.js`를 가지고 테스트 케이스를 작성하겠습니다. `test.js`에 테스트 스위트를 추가해야겠군요.
+불러온 `ModuleSum.js`를 가지고 테스트 케이스를 작성하겠습니다. `test.js`에 테스트 스위트를 추가해야겠군요.
 
 ```javascript
 describe('#ModuleSum', function () {
